@@ -1,0 +1,13 @@
+This program takes as input two numbers and calculates the sum of their squares.
+
+
+print "Enter two numbers"
+num1 = first number from input
+num2 = second number from input
+ 
+num1_sq = num1*num1
+num2_sq = num2*num2
+
+sum_sq = num1_sq + num2_sq
+
+print sum_sq

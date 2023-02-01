@@ -1,0 +1,14 @@
+This program adds numbers to the sum and when a negayive number is encountered, the numbers stop 
+being added and the final result is print out 
+
+Set num=0
+print "Enter numbers"
+Set sum=0;
+
+WHILE LOOP
+As long as num>0
+  sum=sum+num
+  IF num<0
+    print sum
+  ENDIF
+END WHILE LOOP

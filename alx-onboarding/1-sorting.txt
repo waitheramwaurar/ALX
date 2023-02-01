@@ -1,0 +1,27 @@
+This program sorts three numbers in ascending order
+
+print "Enter three numbers"
+a= first number, b = second number, c= third number
+
+ IF (a < b) THEN              
+      IF (a < c) THEN              
+         IF (b < c) THEN           
+            print a, b, c
+         ELSE                      
+            print  a, c, b
+         END IF
+      ELSE                         
+         print c, a, b
+      END IF
+   ELSE                          
+      IF (b < c) THEN             
+         IF (a < c) THEN          
+            print  b, a, c
+         ELSE                      
+            print  b, c, a
+         END IF
+      ELSE                      
+         print  c, b, a
+      END IF
+   END IF
+ 
